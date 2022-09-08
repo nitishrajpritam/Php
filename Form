@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>Class Assignment</title>
+</head>
+<body bgcolor="skyblue">
+<table align="center" width="40%" bgcolor="green">
+<tr>
+<td align="center">
+<h2 style="color:red;" align="center">Personal Details</h2>
+<form>
+Nmae:<input type="text" name="name" required>
+<br><br>
+Password:<input type="password" name="password" required="required">
+<br><br>
+Email:<input type="email" name="email" required>
+<br><br>
+Gender:
+<input type="radio" name="Subject" value="Male" required>Male
+<input type="radio" name="Subject" value="Female" required>Female
+<br><br>
+Contact:<input type="tel" name="phone_number">
+<br><br>
+<H2 style="color:red;" align="center">Educational Qualification</H2>
+<BR><BR>
+Degree:
+<select>
+<option>mca</option>
+<option>bca</option>
+<option>bcom</option>
+<option>ba</option>
+</select>
+<br><br>
+Engineering:
+<select>
+<option>it</option>
+<option>mechanical</option>
+<option>electrical</option>
+<option>civil</option>
+</select>
+<BR><BR>
+
+<input type="checkbox" name="Hobbies" value="on">Playing Chess
+<input type="checkbox" name="Hobbies" value="on">Reading Book
+<br><br>
+Address:<br>
+<textarea rows="5" cols="50" name="description">
+</textarea>
+<br><br>
+
+Attach Resume:<input type="file">
+<br><br>
+
+<input type="submit" value="submit">
+
+</form>
+</tr>
+</td>
+
+</body>
+</html>
